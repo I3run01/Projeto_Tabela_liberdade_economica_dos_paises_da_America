@@ -10,17 +10,17 @@ nav {
     vertical-align: middle;
     text-align: right;
     background-color: black;
-    height: 50px;
+    height: 43px;
+    padding-top: 25px;
 }
 
 
 nav > a {
-    margin: 0px;
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     color: white;
-    padding: 30px;
-
+    padding: 20px;
 }
 
 nav>a:hover {
@@ -40,3 +40,35 @@ section h1 {
     text-align: center;
 }
 
+thead {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+}
+
+table {
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black ;
+    max-width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+#neutro{
+    border: 0px solid black ;
+    background-color: white;
+}
+
+#norte {
+    background-color: rgba(175, 5, 5, 0.397);
+}
+
+#central {
+    background-color: rgba(255, 255, 0, 0.411);
+}
+
+#sul {
+    background-color: rgba(0, 0, 255, 0.363);
+}
