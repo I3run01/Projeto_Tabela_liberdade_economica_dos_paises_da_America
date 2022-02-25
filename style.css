@@ -51,12 +51,20 @@ main {
 
 
 #fundo_espelho {
-    
     position: absolute;
-    top: 30px;
-    width: 300px;
-    height: 200px;
-    background-color: red;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.473);
+    
+}
+
+#fundo_espelho > h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
 }
 
 section {
