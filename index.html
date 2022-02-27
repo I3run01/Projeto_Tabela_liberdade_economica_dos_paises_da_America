@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liberdade econômica 2022</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
@@ -35,113 +35,98 @@
                 </thead>
                 <tbody>
                     <tr id="norte">
-                        <td class="expandir" onclick="expandirAM()"><a href="#">+</a></td>
+                        <td class="expandir" id="expan01">+</td>
                         <th>America do Norte</th>
                         <td>dados</td>
                         <td>dados</td>
                         <td>dados</td>
                         <td>dados</td>
                     </tr>
-                    <tbody>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Canadá</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dados 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>EUA</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dados 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>México</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dados 4</td>
-                        </tr>   
-                    </tbody>
+                </tbody>
+
+                <tbody id="linhaAN">
+                </tbody>
+
+                <tbody> 
                     <tr id="central">
-                        <td class="expandir"><a href="#">+</a></td>
+                        <td class="expandir"><a href="#" >+</a></td>
                         <th>America Central</th>
                         <td>dados</td>
                         <td>dados</td>
                         <td>dados</td>
                         <td>dados 4</td>
                     </tr>
-                    <tbody>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Antígua e Barbuda</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dados 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Costa Rica</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Rep Dominicana</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>El Salvador</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>haiti</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Honduras</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Jamaicas</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Panamá</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                    </tbody>
+                </tbody>
+
+                <tbody id="linha02"></tbody>
+                
+                <tbody>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Antígua e Barbuda</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dados 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Costa Rica</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Rep Dominicana</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>El Salvador</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>haiti</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Honduras</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Jamaicas</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Panamá</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                </tbody>
+                <tbody>
                     <tr id="sul">
                         <td class="expandir"><a href="#">+</a></td>
                         <th>America do Sul</th>
@@ -150,104 +135,104 @@
                         <td>dados</td>
                         <td>dado 4</td>
                     </tr>
-                    <tbody>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Argentina</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Brasil</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Colômbia</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Bolívia</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Guiana Francesa</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Venezuela</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Chile</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Equador</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Peru</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Suriname</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Uruguai</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                        <tr>
-                            <th class="neutro"></th>
-                            <th>Paraguai</th>
-                            <td>dado 1</td>
-                            <td>dado 2</td>
-                            <td>dado 3</td>
-                            <td>dado 4</td>
-                        </tr>
-                    </tbody>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Argentina</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Brasil</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Colômbia</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Bolívia</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Guiana Francesa</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Venezuela</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Chile</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Equador</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Peru</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Suriname</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Uruguai</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
+                    <tr>
+                        <th class="neutro"></th>
+                        <th>Paraguai</th>
+                        <td>dado 1</td>
+                        <td>dado 2</td>
+                        <td>dado 3</td>
+                        <td>dado 4</td>
+                    </tr>
                 </tbody>
             </table>
         </Section>

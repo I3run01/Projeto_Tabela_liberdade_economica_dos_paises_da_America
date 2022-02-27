@@ -117,14 +117,14 @@ th, td {
 }
 
 .expandir, .expandir > a {
-    background-color: rgb(22, 1, 99);
+    background-color: rgb(87, 46, 236);
     color: white;
     text-decoration: none;
     height: 20px;
 
 }
 
-.expandir:active {
+.expandir:hover {
+    background-color: rgb(22, 1, 99);
     font-weight: bolder;
-    font-size: larger;
 }
