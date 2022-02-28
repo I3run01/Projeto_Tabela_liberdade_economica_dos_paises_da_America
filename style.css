@@ -35,46 +35,29 @@ nav>a:hover {
     background-color: gray;
 }
 
-main {
+body {
     margin-top: 0px;
-}
-
-#fundo_Mundi {
-    position: relative;
     background-color: black;
     background-image: url(imagens/Mapa_mundi.jpg);
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
-    height: 500px;
 }
 
-
-#fundo_espelho {
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    padding: 5%;
-    background-color: rgba(0, 0, 0, 0.473);
+#titulo {
+    padding: 20px;
     
-}
-
-#fundo_espelho > h1 {
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-
 }
 
 section {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     max-width: 800px;
     background-color: white;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 1px 1px 5px black;
    
 }
