@@ -41,10 +41,12 @@ function expandir(expan, txt, resp ) {
     }   
 }
 
+
 //Países
 Canada = elementos('Canadá',15, 76.6, 0.914, 8.2)
 EUA = elementos('Estados Unidos',25, 72.1, 0.915, 3.90)
 Mexico = elementos('México',67, 63.7, 0.75, 4.43)
+
 
 Barbados = elementos('Barbados', 28, 71.3, 0.888, 7.41 )
 CostaRica = elementos('Costa Rica', 55, 65.4, 0.725, 21.3)
@@ -73,6 +75,7 @@ Paraguai = elementos('Paraguai', 73, 62.9, 0.640, 6.63, 8)
 //Países da América do Norte
 paisesAN = [Canada, EUA, Mexico]
 respAN = estrutura(paisesAN)
+
 
 paisesAC = [Barbados,CostaRica, RepDom, ElSalvador, Haiti, Honduras, Jamaica, Panama]
 respAC = estrutura(paisesAC)
