@@ -21,8 +21,12 @@ nav {
     
 }
 
+nav > p {
+    margin: 0px 20px 0px 0px;
+    color: white;
 
-nav > a {
+}
+nav a {
     margin: 10px;
     text-align: center;
     text-decoration: none;
@@ -31,7 +35,7 @@ nav > a {
     
 }
 
-nav>a:hover {
+nav a:hover {
     background-color: gray;
 }
 
