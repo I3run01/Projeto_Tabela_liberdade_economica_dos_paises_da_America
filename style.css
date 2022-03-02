@@ -76,7 +76,7 @@ table {
 
 th, td {
     border: 1px solid black ;
-    max-width: 200px;
+    width: 100px;
     text-align: center;
     padding: 5px;
 }
@@ -103,6 +103,7 @@ th, td {
     color: white;
     text-decoration: none;
     height: 20px;
+    width: 50px;
 
 }
 
