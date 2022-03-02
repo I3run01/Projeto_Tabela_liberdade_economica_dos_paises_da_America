@@ -159,10 +159,10 @@ expan01.addEventListener('click', expandirAN)
 function expandirAN() {
     expandir(expan01, textoAN, respAN)
 }
-d1norte.innerHTML = paisesANOB.mediaGlobal
-d2norte.innerHTML = paisesANOB.LiberdadeEco
-d3norte.innerHTML = paisesANOB.IDHO
-d4norte.innerHTML = paisesANOB.TD
+d1norte.innerHTML = paisesANOB.mediaGlobal.toFixed(2)
+d2norte.innerHTML = paisesANOB.LiberdadeEco.toFixed(2)
+d3norte.innerHTML = paisesANOB.IDHO.toFixed(2)
+d4norte.innerHTML = paisesANOB.TD.toFixed(2)
 
 var textoAC = document.getElementById('linhaAC')
 var expan02 = document.getElementById('expan02')
@@ -174,10 +174,10 @@ expan02.addEventListener('click', expandirAC)
 function expandirAC() {
     expandir(expan02, textoAC, respAC)
 }
-d1centro.innerHTML = paisesACOB.mediaGlobal
-d2centro.innerHTML = paisesACOB.LiberdadeEco
-d3centro.innerHTML = paisesACOB.IDHO
-d4centro.innerHTML = paisesACOB.TD
+d1centro.innerHTML = paisesACOB.mediaGlobal.toFixed(2)
+d2centro.innerHTML = paisesACOB.LiberdadeEco.toFixed(2)
+d3centro.innerHTML = paisesACOB.IDHO.toFixed(2)
+d4centro.innerHTML = paisesACOB.TD.toFixed(2)
 
 var textoAS = document.getElementById('linhaAS')
 var expan03 = document.getElementById('expan03')
@@ -189,7 +189,7 @@ expan03.addEventListener('click', expandirAS)
 function expandirAS() {
     expandir(expan03, textoAS, respAS)
 }
-d1sul.innerHTML = paisesASOB.mediaGlobal
-d2sul.innerHTML = paisesASOB.LiberdadeEco
-d3sul.innerHTML = paisesASOB.IDHO
-d4sul.innerHTML = paisesASOB.TD
+d1sul.innerHTML = paisesASOB.mediaGlobal.toFixed(2)
+d2sul.innerHTML = paisesASOB.LiberdadeEco.toFixed(2)
+d3sul.innerHTML = paisesASOB.IDHO.toFixed(2)
+d4sul.innerHTML = paisesASOB.TD.toFixed(2)
