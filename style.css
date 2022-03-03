@@ -52,12 +52,18 @@ body {
     
 }
 
+#tabela {
+    overflow-x: auto;
+    padding: 10px;
+    min-width: 400px;
+}
+
 section {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    width: 800px;
+    max-width: 800px;
     background-color: white;
     padding: 50px;
     border-radius: 20px;
@@ -77,8 +83,9 @@ section h1 {
     
 }
 
+
+
 table {
-    overflow-x: scroll;
     margin: auto;
 
 }
@@ -114,7 +121,7 @@ th, td {
     color: white;
     text-decoration: none;
     height: 20px;
-    width: 50px;
+    max-width: 50px;
 
 }
 
