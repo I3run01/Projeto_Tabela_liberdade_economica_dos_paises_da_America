@@ -26,14 +26,41 @@ nav > p {
     color: white;
 
 }
-nav a {
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    padding: 20px;
+
+@media only screen and (max-width: 800px) {
+    nav a {
+        display: none;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    .mobile {
+        display: inline;
+    }
+
     
 }
+
+@media only screen and (min-width: 800px) {
+    nav a {
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    .mobile {
+        display: none;
+    }
+        
+}
+
 
 nav a:hover {
     background-color: gray;
