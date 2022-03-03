@@ -1,4 +1,9 @@
-var menu = document.querySelector('.mobile')
-var nav = document.querySelector('#nav')
+var navbar  = document.getElementById('mobile')
+var menubar = document.getElementById('menu')
 
-menu.style.backgorund = 'red'
+navbar.addEventListener('click', ShowMenu)
+
+function ShowMenu() {
+    menubar.style.display = 'block'
+    
+}

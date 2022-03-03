@@ -27,18 +27,82 @@ nav > p {
 
 }
 
+#menu {
+    position: fixed;
+    z-index: 5px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.568);
+    display: none;
+
+}
+
+#menu, a {
+    text-align: right;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#menu, a:hover {
+    background-color: gray;
+}
+#menu > div {
+    position: absolute;
+    margin: 100px auto auto auto;
+    color: white;
+    height: 80vh;
+    width: 80vw;
+    background-color: rgb(34, 33, 33);
+    left: 10%;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    
+}
+
+#menu ul {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    padding: 100px 0px 0x 0px;
+    list-style-type: none;
+
+    
+
+}
+
+#menu li {
+    padding: 70px 20px 70px 20px;
+    margin: 50px;
+
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color: gray;
+    font-weight: bold;
+}
+
+nav a {
+    
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+
 @media only screen and (max-width: 800px) {
     nav a {
         display: none;
-        margin: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        padding: 20px;
-        
     }
     
-    .mobile {
+    #mobile {
         display: inline;
     }
 
@@ -46,16 +110,7 @@ nav > p {
 }
 
 @media only screen and (min-width: 800px) {
-    nav a {
-        margin: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        padding: 20px;
-        
-    }
-    
-    .mobile {
+    #mobile {
         display: none;
     }
         
