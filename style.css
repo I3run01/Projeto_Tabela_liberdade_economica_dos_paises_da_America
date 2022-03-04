@@ -142,7 +142,7 @@ body {
 }
 
 #tabela {
-    overflow-x: auto;
+    overflow-x: scroll;
     padding: 10px;
     min-width: 400px;
 }
