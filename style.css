@@ -128,15 +128,25 @@ nav a:hover {
     background-color: gray;
 }
 
-body {
-    margin-top: 0px;
+@media only screen and (min-width: 800px) {
+    body {
+        margin-top: 0px;
+        background-image: url(imagens/Mapa_Mundi.jpg);
+        background-size: cover;
+        background-position: center top;
+        background-attachment: fixed;
+        
+    }
     
-    background-image: url(imagens/Mapa_Mundi.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
     
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: gray;
+    }
+}
+
 
 #titulo {
     padding: 20px;
