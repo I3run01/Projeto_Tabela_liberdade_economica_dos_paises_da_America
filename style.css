@@ -142,7 +142,7 @@ body {
 }
 
 #tabela {
-    overflow-x: scroll;
+    overflow-x: hidden;
     padding: 10px;
     min-width: 400px;
 }
@@ -176,7 +176,6 @@ section h1 {
 
 table {
     margin: auto;
-    z-index: 0px;
 
 }
 
