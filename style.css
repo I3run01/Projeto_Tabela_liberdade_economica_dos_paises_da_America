@@ -1,5 +1,13 @@
 @charset "UTF-08";
 
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body {
     margin: 0px;
     background-color: rgba(95, 95, 95, 0.534);
@@ -27,7 +35,48 @@ nav > p {
 
 }
 
+
+
+nav a {
+    
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+
+@media only screen and (max-width: 800px) {
+    nav a {
+        display: none;
+    }
+    
+    #mobile {
+        display: inline;
+        transition: all 0.5s;
+    }
+
+    
+}
+
+@media only screen and (min-width: 800px) {
+    #mobile {
+        display: none;
+    }
+        
+}
+
+
+
+
 #menu {
+    transition: all 1s;
     position: fixed;
     z-index: 5px;
     top: 0vh;
@@ -87,45 +136,12 @@ nav > p {
     padding: 7vh 0vh 7vh 0vh;
     margin: 2vh;
     border-radius: 20px;
+    transition: all 0.5s;
 }
 
-li:hover {
+#menu li:hover {
     background-color: gray;
-    font-weight: bold;
-}
-
-nav a {
-    
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    
-}
-
-@media only screen and (max-width: 800px) {
-    nav a {
-        display: none;
-    }
-    
-    #mobile {
-        display: inline;
-    }
-
-    
-}
-
-@media only screen and (min-width: 800px) {
-    #mobile {
-        display: none;
-    }
-        
-}
-
-
-nav a:hover {
-    background-color: gray;
+    transform: scale(1.02);
 }
 
 

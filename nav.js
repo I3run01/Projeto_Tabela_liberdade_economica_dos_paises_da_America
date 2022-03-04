@@ -6,7 +6,15 @@ navbar.addEventListener('click', ShowMenu)
 sair.addEventListener('click', SairMenu)
 
 function ShowMenu() {
-    menubar.style.display = 'block'
+
+    if (menubar.style.display == 'block') {
+        menubar.style.display = 'none'
+
+    }
+
+    else {
+        menubar.style.display = 'block'
+    }
     
 }
 
