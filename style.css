@@ -203,6 +203,10 @@ table {
     width: 20px;
 }
 
+.colMore {
+    min-width: 120px;
+}
+
 th, td {
     border: 1px solid black ;
     text-align: center;
