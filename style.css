@@ -166,7 +166,6 @@ body {
 #tabela {
     overflow-x: auto;
     padding: 10px;
-    min-width: 400px;
 }
 
 section {
@@ -189,7 +188,6 @@ section h1 {
 .thead {
     background-color: black;
     color: white;
-
     top: 65px;
     
 }
@@ -201,9 +199,12 @@ table {
 
 }
 
+#col1 {
+    width: 20px;
+}
+
 th, td {
     border: 1px solid black ;
-    width: 100px;
     text-align: center;
     padding: 5px;
 }
@@ -231,8 +232,6 @@ th, td {
     background-color: rgb(87, 46, 236);
     color: white;
     text-decoration: none;
-    height: 20px;
-    max-width: 50px;
 
 }
 
